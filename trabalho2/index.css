@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: gray;
+}
+
+header{
+    background-color: white;
+    width: 100%;
+    height: 120px;
+    
+}
+.logo-texto img{
+    width: 600px;
+    height: 110px;
+    margin-left: 30px;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.navegacao ol{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.navegacao ol li{
+    list-style-type: none;
+    padding-left: 90px;
+    margin-top: 20px;
+    font-size: 30px;
+    
+}
+
+.section-image{
+    width: 100%;
+    height: 776.5px;
+    background-image: url(fundo.png.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+}
+
+.paragrafo{
+    margin: 0;
+    color: black;
+    font-size: 88px;
+    
+}
+
+.rodape{
+    width: 100%;
+    height: 300x;
+    background-color: white;
+}
+.rodape-imagens-logo{
+    width: 495px;
+    margin-left: -0px;
+    margin-top: 15px;
+    background-position: center;
+}
+.rodape-imagens-face{
+    width: 43px;
+    height: 39px;
+    position: absolute;
+    right: 49.7%;
+    bottom: -390px;
+}
+
+.rodape-copy{
+   text-align: center;
+   position: absolute;
+   right: 30px;
+   font-size: 28px;
+   top: 935px;
+   
+}
+
+.rodape-imagens-insta{
+    width: 35px;
+    height: 32.5px;
+    position: absolute;
+    right: 42.3%;
+    bottom: -386px;
+}
+
+.rodape-imagens-twitter{
+    width: 35px;
+    height: 33.3px;
+    position: absolute;
+    right: 45.1%;
+    bottom: -386px;
+}
+ .rodape-imagens-zap{
+width: 45px;
+height: 35.3px;
+position: absolute;
+right: 47.2%;
+bottom: -386px;
+ }
+
+ .navegacao ol li :hover{
+    color: black;
+ }
